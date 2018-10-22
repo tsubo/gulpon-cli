@@ -1,0 +1,21 @@
+{
+  "name": "gulpon-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for Gulpon",
+  "author": "tsubo",
+  "license": "MIT",
+  "main": "lib/gulpon",
+  "bin": {
+    "gulpon": "bin/gulpon"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^7.0.0",
+    "minimist": "^1.2.0",
+    "printf": "^0.5.1",
+    "resolve": "^1.8.1"
+  }
+}
