@@ -4,6 +4,10 @@
   "description": "Command line interface for Gulpon",
   "author": "tsubo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsubo/gulpon-cli"
+  },
   "main": "lib/gulpon",
   "bin": {
     "gulpon": "bin/gulpon"
